@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var kolvo = 6;
+		console.log(kolvo);
+
+		var myname = 'Sasha';
+		console.log(myname);
+
+		var challenges = [1, 2, 3];
+
+
+
+		var names = ['Sasha', 'Maxim', 'Kirill', 'Marsel', 'Angelina', 'Aihal'];
+		
+
+		var ad = function(name){
+			names.push(name)
+
+		};
+		ad('Volodya')
+		console.log(names);
+
+
+
+
+
+
+		var a;
+		var i;
+for (a = 0; a < names.length; a++){
+	console.log(names[a])
+for (i = 0; i < challenges.length; i++) {
+  console.log(challenges[i])
+}
+}
+
+
+
+		var hero = {
+			name: 'imeninik',
+			height: 100,
+			power: function(){
+				alert('hello my name is ' + hero.name )
+			}
+			
+		}
+		class Superhero {
+  constructor(height, age) {
+    this.height = height;
+    this.age = age;
+    
+  }
+  powerr(){
+  	alert('Use superpowerr!!!')
+  }
+
+}
+
+
+var h = new Superhero(199, 30);
+console.log(h)
+
+
+
+
+		var spy = {
+			age: 14,
+			rost: 161
+		};
+		if(spy.age > 13 && spy.rost > 159 ){
+			alert('posdravlyaem vi prinaty!!!')
+		}else{
+			alert('izvinite vi ne prinaty :(')
+		}
+
+	</script>
+</body>
+</html>

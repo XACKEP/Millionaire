@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Кто хочет стать миллионером</title>
+</head>
+<body>
+<div class="main">
+	<div class="block1">
+		<div>
+			<div class="help">
+				<div class="prompt">50:50</div>
+				<div class="prompt">Помощь зала</div>
+				<div class="prompt">Звонок другу</div>
+			</div>
+			<div>
+				<img src="logo.png">
+			</div>
+		</div>
+		<div class="result">
+			<div class="money">15. 3 000 000</div>
+			<div class="money">14. 1 500 000</div>
+			<div class="money">13. 800 000</div>
+			<div class="money">12. 400 000</div>
+			<div class="money">11. 200 000</div>
+			<div class="money">10. 100 000</div>
+			<div class="money">9. 50 000</div>
+			<div class="money">8. 25 000</div>
+			<div class="money">7. 15 000</div>
+			<div class="money">6. 10 000</div>
+			<div class="money">5. 5 000</div>
+			<div class="money">4. 3 000</div>
+			<div class="money">3. 2 000</div>
+			<div class="money">2. 1 000</div>
+			<div class="money">1. 500</div>
+		</div>
+	</div>
+	<div class="block2">
+		<div class="question"> Как зовут Ондрея?</div>
+		<div class="answer">
+			<div class="flex">
+				<div class="variant1">Андрей</div>
+				<div class="variant2">Ондрей</div>
+			</div>
+			<div class="flex">
+				<div class="variant3">НЕ Андрей</div>
+				<div class="variant4">НЕ Ондрей</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var variant1 = document.querySelector('.variant1');
+	var variant2 = document.querySelector('.variant2');
+	var variant3 = document.querySelector('.variant3');
+	var variant4 = document.querySelector('.variant4');
+	var quest = document.querySelector('.question');
+	var answer = document.querySelector('.answer');
+
+
+
+
+	variant2.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant3.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant4.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+
+
+
+
+	variant1.onclick = function(){
+
+
+
+			quest.innerHTML = 'Как зовут Домира?';
+			variant1.innerHTML = 'Дамир'
+			variant2.innerHTML = 'Домир'
+			variant3.innerHTML = 'Димир'
+			variant4.innerHTML = 'Думар'
+
+
+
+	variant2.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant3.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant4.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+
+
+
+
+
+
+			variant1.onclick = function(){
+			quest.innerHTML = 'Как зовут Путина?';
+			variant1.innerHTML = 'Путин Влад Васильевич'
+			variant2.innerHTML = 'Путин Владимир Анатольевич'
+			variant3.innerHTML = 'Путин Владимир Владимирович'
+			variant4.innerHTML = 'Путин Всеволодя Алексеевич'
+
+
+
+	variant1.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant2.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant4.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ПРОИГРАЛ!'
+	}
+	variant3.onclick = function(){
+		answer.style.display = 'none';
+		quest.innerHTML = 'ТЫ ВЫИГРАЛ СОТКУ!!11! 100!'
+	}
+			
+	}
+	}
+	
+</script>
+</body>
+</html>

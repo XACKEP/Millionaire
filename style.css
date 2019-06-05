@@ -1,0 +1,84 @@
+html{
+	font-family: Arial;
+}
+.main{
+	width: 1000px;
+	box-sizing: border-box;
+	background: url(bg.jpg);
+
+}
+.block1{
+	background: red;
+	display: flex;
+	height: 65%;
+}
+.help{
+	height: 80px;
+	width: 400px;
+	background: black;
+	display: flex;
+}
+.prompt{ 
+	background: yellow;
+	width: 80px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 12.5px;
+}
+.money{
+	background: cyan;
+	height: 15px;
+	margin-bottom: 10px;
+}
+.result{
+	background: green;
+	width: 200px;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.block2{
+	margin-top: 30px;
+	height: 35%;
+	background: blue;
+}
+.question{
+	background: purple;
+	color: black;
+	height: 100px;
+}
+.answer{
+	background: pink;
+	height: 100px;
+}
+.variant1{
+	height: 40px;
+	width: 250px;
+	background: grey;
+	margin-top: 5px;
+	margin-left: 150px;
+}
+.flex{
+	display: flex;
+}
+.variant2{
+	height: 40px;
+	width: 250px;
+	background: grey;
+	margin-top: 5px;
+	margin-left: 150px;
+}
+.variant3{
+	height: 40px;
+	width: 250px;
+	background: grey;
+	margin-top: 5px;
+	margin-left: 150px;
+}
+.variant4{
+	height: 40px;
+	width: 250px;
+	background: grey;
+	margin-top: 5px;
+	margin-left: 150px;
+}
